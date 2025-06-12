@@ -18,7 +18,7 @@
 }
 
 .page-name{
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 500;
 }
 
@@ -39,4 +39,41 @@
 
 img{
     max-width: 50%;
+}
+
+/* === Responsive design para pantallas pequeñas === */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .navbar-items {
+        padding: 0.5rem 0;
+    }
+
+    .page-name {
+        font-size: 28px;
+    }
+
+    .contact-link {
+        font-size: 18px;
+    }
+
+    .page-content {
+        padding: 10px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    pre {
+        font-size: 14px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+        padding: 0 10px;
+    }
 }
