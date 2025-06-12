@@ -1,0 +1,42 @@
+*{
+    font-family: "Barlow";
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: gray;
+    border-radius: 10px;
+}
+
+.navbar-items{
+    padding-left: 20px;
+    padding-right: 90px;
+}
+
+.page-name{
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.contact-link{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.page-content{
+    padding: 20px;
+}
+
+.content-text{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+img{
+    max-width: 50%;
+}
